@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.banner {
+  background-image: url('../../images/banner.jpg');
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: left;
+  color: white;
+  position: relative;
+}
+
+.banner h1 {
+  position: absolute;
+  left: 600px;
+  top: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+  letter-spacing: .05em;
+  font-weight: 500;
+}
+
+.banner p {
+  position: absolute;
+  left: 600px;
+  top: 180px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4em;
+  letter-spacing: .05em;
+  font-weight: 300;
+}
+
+.banner a {
+  position: absolute;
+  left: 620px;
+  top: 260px;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4em;
+  letter-spacing: .05em;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(249, 180, 4);
+  padding: 16px 26px;
+  border-radius: 5px;
+}
+
+.banner a:hover {
+  background-color: rgb(194, 142, 10);
+}
